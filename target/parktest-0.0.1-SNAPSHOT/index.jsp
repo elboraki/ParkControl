@@ -31,8 +31,7 @@ if ("/UserServlet".equals(currentPath))
 <body>
 
 	<nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
-		<a class="navbar-brand" href="#"> 
-		<img src="assets/logo.png"
+		<a class="navbar-brand" href="#"> <img src="assets/logo.png"
 			alt="logo" class="logo" />
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -44,41 +43,46 @@ if ("/UserServlet".equals(currentPath))
 
 		<div class="collapse navbar-collapse" id="navbarsExampleDefault">
 			<ul class="navbar-nav mr-auto">
-				<li class="nav-item active"><a class="nav-link" href="#">Home
-						<span class="sr-only">(current)</span>
+				<li class="nav-item active"><a class="nav-link" href="#"> <i
+						class="fa fa-tachometer" aria-hidden="true"></i> Tableau De Bord <span
+						class="sr-only">(current)</span>
 				</a></li>
-				<li class="nav-item"><a class="nav-link" href="#"><i
-						class="fa fa-address-book" aria-hidden="true"></i>Link</a></li>
-				<li class="nav-item"><a class="nav-link disabled">Disabled</a>
-				</li>
-				<li class="nav-item dropdown"><a
-					class="nav-link dropdown-toggle" href="#" data-toggle="dropdown"
-					aria-expanded="false">Dropdown</a>
-					<div class="dropdown-menu">
-						<a class="dropdown-item" href="#">Action</a> <a
-							class="dropdown-item" href="#">Another action</a> <a
-							class="dropdown-item" href="#">Something else here</a>
-					</div></li>
+
+				<li class="nav-item"><a class="nav-link" href="#"> <i
+						class="fa fa-car" aria-hidden="true"></i> Gestion Des Reservation
+				</a></li>
+
+				<li class="nav-item"><a class="nav-link" href="#"> <i
+						class="fa fa-address-card-o" aria-hidden="true"></i> Gestion des
+						Personels
+				</a></li>
+				<li class="nav-item"><a class="nav-link" href="#"> <i
+						class="fa fa-wrench" aria-hidden="true"></i> Suivi de Maintenance
+				</a></li>
+
+
+
+				<li class="nav-item"><a class="nav-link" href="#"> <i
+						class="fa fa-users" aria-hidden="true"></i> Gestion Des
+						Utilisateurs
+				</a></li>
+
+
+
+
 			</ul>
-			<form class="form-inline my-2 my-lg-0">
-				<input class="form-control mr-sm-2" type="text" placeholder="Search"
-					aria-label="Search">
-				<button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
-			</form>
+
 		</div>
 	</nav>
 
-	<main role="main" class="container">
+	<div role="main" class="container" id="main-margin">
 
-		<div class="starter-template">
-			<h1>Bootstrap starter template</h1>
-			<p class="lead">
-				Use this document as a way to quickly start any new project.<br>
-				All you get is this text and a mostly barebones HTML document.
-			</p>
-		</div>
-
-	</main>
+		<h1>Bootstrap starter template</h1>
+		<p class="lead">
+			Use this document as a way to quickly start any new project.<br>
+			All you get is this text and a mostly barebones HTML document.
+		</p>
+	</div>
 	<!-- /.container --  <!-- Bootstrap 4 JS -->
 	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 	<script
